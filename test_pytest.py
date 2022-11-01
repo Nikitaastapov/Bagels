@@ -1,9 +1,6 @@
 import  pytest
 from main import get_secret_num, get_clues
 
-
-test_param =['Папка_1', 'Папка_2', 'Папка_1']
-
 class TestFuncion:      
     def test_get_secret_num_1(self):
         res = get_secret_num()
